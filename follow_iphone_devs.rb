@@ -15,7 +15,7 @@ base =  Twitter::Base.new(twitter_user, twitter_pw)
 
 (1..1000).each do |row|
         url = ws[row,2]
-        matched_user = url.match(/http:\/\/twitter.com\/(.*)/)
+        matched_user = url.match(/http:\/\/.*twitter.com\/(.*)/)
         next unless matched_user
         matched_user = matched_user[1]
 
