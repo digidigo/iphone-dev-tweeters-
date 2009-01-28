@@ -1,3 +1,11 @@
+# This script is designed to read the twitter using iphone developers here -> http://is.gd/hlhV and follow them with your twitter account
+# plug in your google and twitter account details below
+# Credit for this script goes to David Clements
+# See his blog post here -> http://shortpath.blogspot.com/2009/01/follow-over-100-iphone-developers-on.html
+# You'll need the google spreadsheet gem (http://github.com/gimite/google-spreadsheet-ruby/tree/master) and the twitter gem
+# You may want to change the 1..1000 below so it only adds 10 followers at a time (every hour or so). Twitter will like you more then
+
+
 require "rubygems"
 require "google_spreadsheet"
 require 'twitter'
